@@ -1,0 +1,18 @@
+#
+# Sprite sheet data for MonoGame.
+#
+# To learn how to import these sprites into your MonoGame project visit:
+# http://www.codeandweb.com/texturepacker/monogame
+#
+# Sprite sheet: testedoll.png (108 x 64)
+# $TexturePacker:SmartUpdate:070905cd7119dfc3935d4fac1d6a337d:390ce45c4539d8c9baef49826bde69a6:a0a1df41056f935c063126711d939bc5$
+#
+
+idle001;0;61;1;23;30;25;30;0.5;0.5
+idle002;0;62;33;23;30;25;30;0.5;0.5
+jump001;0;1;1;26;36;26;36;0.5;0.5
+jump002;0;29;1;30;34;30;36;0.5;0.47058823529411764
+walk001;1;32;37;28;25;25;30;0.5;0.4642857142857143
+walk002;0;86;1;19;30;25;30;0.5;0.5
+walk003;1;1;39;29;24;25;30;0.4791666666666667;0.4827586206896552
+walk004;0;87;33;19;30;25;30;0.5526315789473685;0.5

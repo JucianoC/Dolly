@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Mono/Dollynho/Game4/Game4/Content/cutman.png</File>
+    <File>C:/Mono/Dollynho/Game4/Game4/Content/cut.tmx</File>
+    <File>C:/Mono/Dollynho/Game4/Game4/Content/Arial.spritefont</File>
+    <File>C:/Mono/Dollynho/Game4/Game4/Content/bloco.png</File>
+    <File>C:/Mono/Dollynho/Game4/Game4/Content/testedoll.png</File>
+  </SourceFiles>
+</SourceFileCollection>

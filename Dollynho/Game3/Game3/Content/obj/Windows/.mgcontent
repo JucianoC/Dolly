@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Mono/Dollynho/Game3/Game3/Content/testedoll.png</File>
+    <File>C:/Mono/Dollynho/Game3/Game3/Content/nettaur.png</File>
+    <File>C:/Mono/Dollynho/Game3/Game3/Content/idle001.png</File>
+    <File>C:/Mono/Dollynho/Game3/Game3/Content/wood.tmx</File>
+    <File>C:/Mono/Dollynho/Game3/Game3/Content/tiles.png</File>
+  </SourceFiles>
+</SourceFileCollection>

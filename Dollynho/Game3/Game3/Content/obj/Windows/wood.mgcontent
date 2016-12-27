@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Mono/Dollynho/Game3/Game3/Content/wood.tmx</SourceFile>
+  <SourceTime>2016-09-11T23:19:00.4527418-03:00</SourceTime>
+  <DestFile>C:/Mono/Dollynho/Game3/Game3/Content/bin/Windows/wood.xnb</DestFile>
+  <DestTime>2016-09-19T00:49:29.7700069-03:00</DestTime>
+  <Importer>TiledMapImporter</Importer>
+  <ImporterTime>2016-06-09T18:19:04.9941019-03:00</ImporterTime>
+  <Processor>TiledMapProcessor</Processor>
+  <ProcessorTime>2016-06-09T18:19:04.9941019-03:00</ProcessorTime>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

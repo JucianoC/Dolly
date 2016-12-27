@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/Alpha/Game2/Game2/Content/colisionTest1.tmx</File>
+    <File>D:/Alpha/Game2/Game2/Content/bloco.png</File>
+    <File>D:/Alpha/Game2/Game2/Content/axe.png</File>
+    <File>D:/Alpha/Game2/Game2/Content/Arial.spritefont</File>
+    <File>D:/Alpha/Game2/Game2/Content/alphaBoySpriteSheet.png</File>
+    <File>D:/Alpha/Game2/Game2/Content/axe_defalult.png</File>
+    <File>D:/Alpha/Game2/Game2/Content/alphaMap.png</File>
+    <File>D:/Alpha/Game2/Game2/Content/scroll.png</File>
+  </SourceFiles>
+</SourceFileCollection>
