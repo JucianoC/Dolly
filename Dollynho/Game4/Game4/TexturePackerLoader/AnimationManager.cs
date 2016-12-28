@@ -1,4 +1,6 @@
-﻿namespace TexturePackerLoader
+﻿using TexturePackerLoader;
+
+namespace TexturePackerLoader
 {
     using System;
 
@@ -57,8 +59,15 @@
 
                 this.CurrentSpriteEffects = animation.Effect;
             }
-
-            this.CurrentSprite = this.spriteSheet.Sprite(animation.Sprites[this.CurrentFrame]);
+            try
+            {
+                this.CurrentSprite = this.spriteSheet.Sprite(animation.Sprites[this.CurrentFrame]);
+            }
+            catch (IndexOutOfRangeException e)
+            {
+                e.ToString();
+            }
+            
             this.previousMovementTime = nowTime;
         }
     }

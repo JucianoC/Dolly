@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>D:/Alpha/Game2/Game2/Content/bloco.png</SourceFile>
+  <SourceFile>C:/PROJETOS/Dolly/Dolly/Alpha/Game2/Game2/Content/bloco.png</SourceFile>
   <SourceTime>2016-09-02T01:09:10.5365626-03:00</SourceTime>
-  <DestFile>D:/Alpha/Game2/Game2/Content/bin/Windows/bloco.xnb</DestFile>
-  <DestTime>2016-11-24T19:23:29.9677274-02:00</DestTime>
+  <DestFile>C:/PROJETOS/Dolly/Dolly/Alpha/Game2/Game2/Content/bin/Windows/bloco.xnb</DestFile>
+  <DestTime>2016-12-27T20:42:07.1832009-02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T03:36:08-03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

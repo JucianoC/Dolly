@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>D:/Alpha/Game2/Game2/Content/colisionTest1.tmx</SourceFile>
+  <SourceFile>C:/PROJETOS/Dolly/Dolly/Alpha/Game2/Game2/Content/colisionTest1.tmx</SourceFile>
   <SourceTime>2016-11-10T19:25:49.6867294-02:00</SourceTime>
-  <DestFile>D:/Alpha/Game2/Game2/Content/bin/Windows/colisionTest1.xnb</DestFile>
-  <DestTime>2016-11-24T19:23:29.7457147-02:00</DestTime>
+  <DestFile>C:/PROJETOS/Dolly/Dolly/Alpha/Game2/Game2/Content/bin/Windows/colisionTest1.xnb</DestFile>
+  <DestTime>2016-12-27T20:42:07.0425592-02:00</DestTime>
   <Importer>TiledMapImporter</Importer>
   <ImporterTime>2016-09-02T00:26:20.9090954-03:00</ImporterTime>
   <Processor>TiledMapProcessor</Processor>

@@ -18,7 +18,17 @@ namespace Game4.dollynho
         private SpriteRender spriteRender;
 
         private AnimationManager characterAnimationManager;
-        private readonly TimeSpan timePerFrame = TimeSpan.FromSeconds(1f / 10f);
+        private readonly TimeSpan timePerFrame = TimeSpan.FromSeconds(1f / 8.75f);
+
+        private Point tamanhoBoneco = new Point(16, 32);
+        public Point TamanhoBoneco
+        {
+            set { tamanhoBoneco = value; }
+            get
+            {
+                return tamanhoBoneco;
+            }
+        }
 
         private Rectangle posicao;
         public Rectangle Posicao
@@ -80,12 +90,22 @@ namespace Game4.dollynho
         public void moveLeft()
         {
             this.characterAnimationManager.CurrentAnimation = 1;
-            this.posicao = new Rectangle(this.posicao.X - 1, this.posicao.Y, 16, 16);
+            this.posicao = new Rectangle(new Point(this.posicao.X - 1, this.posicao.Y), this.tamanhoBoneco);
         }
         public void moveRight()
         {
             this.characterAnimationManager.CurrentAnimation = 0;
-            this.posicao = new Rectangle(this.posicao.X + 1, this.posicao.Y, 16, 16);
+            this.posicao = new Rectangle(new Point(this.posicao.X + 1, this.posicao.Y), this.tamanhoBoneco);
+        }
+
+        public void setIdleAnimmationLeft()
+        {
+            this.characterAnimationManager.CurrentAnimation = 3;
+        }
+
+        public void setIdleAnimmationRight()
+        {
+            this.characterAnimationManager.CurrentAnimation = 2;
         }
 
         public void Update(GameTime gameTime)
@@ -101,7 +121,11 @@ namespace Game4.dollynho
                 this.characterAnimationManager.CurrentSprite,
                 this.characterAnimationManager.CurrentPosition,
                 Color.White, 0, 1,
-                this.characterAnimationManager.CurrentSpriteEffects);
+                this.characterAnimationManager.CurrentSpriteEffects
+
+            );
+
+            spriteBatch.Draw(bloco, posicao, Color.Red);
         }
 
     }
