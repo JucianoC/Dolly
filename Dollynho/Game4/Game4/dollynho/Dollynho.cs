@@ -36,8 +36,8 @@ namespace Game4.dollynho
             set { posicao = value; }
             get
             {
-                //return new Rectangle(posicao.X - 8, posicao.Y - 4, 16, 16);
-                return posicao;
+                return new Rectangle(posicao.X /*+ 8*/, posicao.Y /*+ 18*/, this.TamanhoBoneco.X, this.TamanhoBoneco.Y);
+                //return posicao;
             }
         }
 
@@ -111,7 +111,7 @@ namespace Game4.dollynho
         public void Update(GameTime gameTime)
         {
             this.characterAnimationManager.Update(gameTime);
-            this.characterAnimationManager.CurrentPosition = new Vector2(posicao.X, posicao.Y);
+            this.characterAnimationManager.CurrentPosition = new Vector2(this.Posicao.X, this.Posicao.Y);
         }
 
         public void Draw(SpriteBatch spriteBatch)

@@ -71,7 +71,6 @@ namespace Game4
 
             Rectangle retanguloDolly = dolly.Posicao;
 
-
             if (KeyLeftPressed)
             {
                 bool move = true;
